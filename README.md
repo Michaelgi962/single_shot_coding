@@ -25,10 +25,12 @@ This repository contains Bash scripts designed to initialize projects with a sin
 
 ## Activate the virtual environment:
 
-source <project_folder>/venv/bin/activate
+   ```bash
+   source <project_folder>/venv/bin/activate
+
 Start using your project!
 
-## Example: Click Flick
+# Example: Click Flick
 The setup_click_flick.sh script initializes a project called Click Flick, a tool for controlling the mouse cursor with hotkeys.
 
 Features:
