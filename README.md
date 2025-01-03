@@ -17,18 +17,25 @@ This repository contains Bash scripts designed to initialize projects with a sin
    ```bash
    git clone https://github.com/your_username/single_shot_code.git
    cd single_shot_code
+   ```
 
 ## Run a setup script:
-
+- The project will be initialized in the current working directory.
    ```bash
    ./setup_<project_name>.sh
+   ```
 
 ## Activate the virtual environment:
 
    ```bash
    source <project_folder>/venv/bin/activate
+   ```
 
-Start using your project!
+## run the main project file
+
+   ```bash
+   Python <main_project_file>
+   ```
 
 # Example: Click Flick
 The setup_click_flick.sh script initializes a project called Click Flick, a tool for controlling the mouse cursor with hotkeys.
